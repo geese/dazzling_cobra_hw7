@@ -25,6 +25,10 @@ def printDigit(zipcode):
         zip.append(10 - rem)
     else:
         zip.append(0)
+    zipString = ''
+    for digit in zip:
+        zipString += str(digit)
+    print('zip: {}, check digit: {}'.format(zipString[0:-1], zipString[-1:]))
     return zip
 
 
