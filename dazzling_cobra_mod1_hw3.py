@@ -6,7 +6,6 @@
 
 
 def ctrl(values_dict):
-    result = ""
     v = values_dict
     
     if v['GS'] not in ['P','N','D','1','2','3','R']:
