@@ -1,10 +1,15 @@
 """
+Translate a decimal zipcode into a barcode.
+Args:
+    User will be asked to enter a zipcode.
+Returns:
+    Barcode format of user input zipcode.
 """
 #!/usr/bin/env python3
 import sys
 
 def zipcode():
-    zip = list(input())
+    zip = list(input("Please input a zip code: "))
     i = 0
     for word in zip:
         zip[i] = int(zip[i])
