@@ -10,12 +10,17 @@ def getMinivanTestFile(url):
     """
     opens url and reads in a csv file of minivan testing records
     Args:
-        a url for a csv file
+        A url for a csv file
+    Returns: 
+        A list of records from the csv file.  
+        Each list element (record) is a list of input values.
     """
+    record_list = []
     with urlopen(url) as testFile:
         for line in testFile:
-            print(line);
-
+            line_dc = line.decode('utf-8').strip('\n')
+            record_list.append(line_dc.split(','))
+    return record_list
 
 
 # Main function
