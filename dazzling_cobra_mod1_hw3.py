@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
 """
+Module to control the sliding doors on a van.
+Args:
+    Input ctrl containing values for ctrl{}
+Returns:
+    Whether the left right both or no doors opened based on input file.
 """
-
-
 
 
 def ctrl(values_dict):
     v = values_dict
     
+    #Check for gearshift valid input
     if v['GS'] not in ['P','N','D','1','2','3','R']:
         return "Invalid Record: Both doors stay closed."
 
@@ -39,10 +43,6 @@ def ctrl(values_dict):
             return "Neither door opens."
     else: # master unlock is NOT activated
         return "Neither door opens."
-                    
-
-
-    
 
 
 # Main function
@@ -55,13 +55,3 @@ if __name__ == '__main__':
     main()
 
     exit(0)
-
-
-
-
-
-
-
-
-
-
