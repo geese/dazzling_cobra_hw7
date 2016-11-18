@@ -10,9 +10,9 @@ Jordan Newkirk
 
 Simulates a portion of control software for a vehicle. Takes a sequence of values for the switches and gear shift.
 
-    dazzling_cobra_mod1_hw3.py - Logic of the control software. 
+    dazzling_cobra_mod1_hw3.py - Logic of the control software which determines which door(s) opens (if any). 
   
-    dazzling_cobra_mod2_hw3.py - Tests the logic from dazzling_cobra_mod1_hw3.py using an imported csv file.
+    dazzling_cobra_mod2_hw3.py - Tests the logic from dazzling_cobra_mod1_hw3.py using an imported csv file and displays the values of the switches and gear shift as well as which door(s) open (if any).
   
 
 Converts a zipcode into a barcode based on the check digit (number which makes the sum of 5 numbers a multiple of 10
