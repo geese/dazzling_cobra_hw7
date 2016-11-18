@@ -12,7 +12,6 @@ import sys
 barcode_table = {1:'00011', 2:'00101',3:'00110', 4:'01001', 5:'01010', 
         6:'01100', 7:'10001', 8:'10010', 9:'10100', 0:'11000'}
 
-
 def printDigit():
     """
     Take zipcode from user input than prepare it for printing in barcode format.
@@ -38,7 +37,7 @@ def printDigit():
     return zip
 
 
-def printBarCode(zipCode):
+def printBarCode(zip):
     """
     Prints decimal zipcode and check value as a barcode
     using psuedo-binary. 
@@ -50,11 +49,10 @@ def printBarCode(zipCode):
     Returns:
         6 decimal digits expressed in psuedo-binary barcode
     """
-    zip = printDigit(zipCode)
     barcode = '|'
-    for digit in zip:
-        for bit in barcode_table[digit]:
-            barcode += ':' if bit == '0' else '|'
+    for word in zip:
+        for bit in barcode_table[word]:
+            barcode += ":" if bit == '0' else '|'
     barcode += '|'
     print(barcode)
 
@@ -64,9 +62,10 @@ def main():
     """
     Test function
     """
-    zip = input("Please input a zip code: ")
+    #zip = input("Please input a zip code: ")
+    #printBarCode(zip)
+    zip = printDigit()
     printBarCode(zip)
-
 
 if __name__ == "__main__":
     #Call Main
