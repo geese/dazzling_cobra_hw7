@@ -5,7 +5,7 @@ into a barcode
 Displays the zipcode, the check digit, and the barcode
 """
 import sys
-import dazzling_cobra_mod3_hw3 as dazzle
+import dazzling_cobra_mod3_hw7 as dazzle
 from urllib.request import urlopen
 
 def help():

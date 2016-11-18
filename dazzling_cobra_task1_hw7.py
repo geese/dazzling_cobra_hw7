@@ -1,7 +1,4 @@
 #!/usr/bin/env python3
-"""
-Ugh, where to start...
-"""
 import sys
 from urllib.request import urlopen
 
