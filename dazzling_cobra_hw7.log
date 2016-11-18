@@ -1,3 +1,21 @@
+commit e6608a796becb1f6230e68de44b8c1105120e72d
+Author: Karl <karlmarble@mail.weber.edu>
+Date:   Fri Nov 18 23:42:30 2016 +0000
+
+    Cleaned tree and adjusted imports to match new filenames
+
+commit a2bfbaa9ceb87e25b64f0cb5c5f89e66cb355c70
+Author: Karl <karlmarble@mail.weber.edu>
+Date:   Fri Nov 18 23:34:36 2016 +0000
+
+    changed names to hw7 per naming convention
+
+commit b5819a306f2d2aca914ac469fb92e94361020284
+Author: locoslrak <karlmarble@mail.weber.edu>
+Date:   Fri Nov 18 16:32:06 2016 -0700
+
+    updates the readme file to reflect the changes and added the task1 file
+
 commit a374c80366c8ce335c7caba594b77767fd0c05bb
 Author: Karl <karlmarble@mail.weber.edu>
 Date:   Fri Nov 18 23:22:21 2016 +0000
