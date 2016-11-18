@@ -1,10 +1,18 @@
 #!/usr/bin/env python3
 """
-
+Simulates a portion of the control software for a vehicle using a csv file
+as the source of the input values and evaluates which doors have been
+opened on the vehicle (if any)
 """
 import sys
 from urllib.request import urlopen
 from dazzling_cobra_mod1_hw3 import ctrl
+
+def help():
+    """
+    Usage of the program is: python3 dazzling_cobra_mod2_hw3.py
+    """
+    print("The usage is: python3 dazzling_cobra_mod2_hw3.py")
 
 def getMinivanTestFile(url):
     """
@@ -24,7 +32,13 @@ def getMinivanTestFile(url):
 
 
 def makeInputValuesDicts(record_list):
-    # separate the header values from the input values
+    """
+    Separates the header values from the input values
+    Args:
+        The record list with values and headers
+    Returns:
+        Dictionary of values that have been stripped
+    """
     header_record = record_list.pop(0)
     values_dicts = []
 
@@ -39,6 +53,13 @@ def makeInputValuesDicts(record_list):
 
 
 def printRecords(values_dicts):
+    """
+    Prints which record is being read and prints the value of each
+    field as 0 or 1
+    Evaluates which door opens (if any)
+    Args:
+        Dictionary of values that have been stripped
+    """
     for i in range(0,len(values_dicts)):
         print("Reading Record {}:".format(i+1))
         print("Left dashboard switch (0 or 1): {}".format(values_dicts[i]['LD']))
@@ -56,6 +77,12 @@ def printRecords(values_dicts):
 
 # Main function
 def main():
+    """
+    Gets the record from the csv file using the URL
+    Separates the header values from the input values
+    Prints the records in the new format and evaluates which
+    doors have opened (if any)
+    """
     records = getMinivanTestFile('http://icarus.cs.weber.edu/~hvalle/cs3030/data/minivanTest.csv')
     dicts = makeInputValuesDicts(records)
     printRecords(dicts)
