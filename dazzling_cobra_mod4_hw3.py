@@ -43,10 +43,21 @@ def main():
     Prints out the zipcode read from the input file, the check digit,
     and also the bar code based off of the zipcode
     """
-    zips = getZipCodes('http://icarus.cs.weber.edu/~hvalle/cs3030/data/barCodeData.txt')
-    for zip in zips:
-        dazzle.printBarCode(zip)
-        print('\n')
+    zipList = getZipCodes('http://icarus.cs.weber.edu/~hvalle/cs3030/data/barCodeData.txt')
+    for zip in zipList:
+        nzip = list(zip)
+        i = 0
+        for word in nzip: 
+            nzip[i] = int(nzip[i])
+            i += 1
+        chksum = sum(nzip)
+        if chksum % 10 != 0:
+            rem = chksum % 10
+            nzip.append(10 - rem)
+        else:
+            nzip.append(0)
+        print("Please input a zip code: ",zip)
+        dazzle.printBarCode(nzip)
     return
 
 
@@ -55,13 +66,3 @@ if __name__ == '__main__':
     main()
     
     exit(0)
-
-
-
-
-
-
-
-
-
-
