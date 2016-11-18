@@ -1,0 +1,130 @@
+commit a374c80366c8ce335c7caba594b77767fd0c05bb
+Author: Karl <karlmarble@mail.weber.edu>
+Date:   Fri Nov 18 23:22:21 2016 +0000
+
+    changed test function to fix error in dict
+
+commit 4f79006d2c93279860641dff3578e40bc1d3cb42
+Author: Karl <karlmarble@mail.weber.edu>
+Date:   Fri Nov 18 20:36:13 2016 +0000
+
+    fixed input variable added documentation
+
+commit ad483b585dc52eaeb5739eeb1a042be2301a9b93
+Author: locoslrak <karlmarble@mail.weber.edu>
+Date:   Fri Nov 18 12:51:16 2016 -0700
+
+    added documentation
+
+commit bbda716cad841bd117325fff3d5f8bd29b9752eb
+Author: locoslrak <karlmarble@mail.weber.edu>
+Date:   Fri Nov 18 12:34:28 2016 -0700
+
+    Added documentation to module
+
+commit eeee6b8e3b491c73187e4960eba753422af66bd8
+Author: jaynewk <jordannewkirk1@mail.weber.edu>
+Date:   Thu Nov 17 23:46:58 2016 -0700
+
+    Added additional information to the README.md file
+
+commit 5708295dce6f29f806d4601e3b9585d249948428
+Author: jaynewk <jordannewkirk1@mail.weber.edu>
+Date:   Thu Nov 17 23:43:52 2016 -0700
+
+    Create README.md
+
+commit 9d0fc43f46db2e148ebfb26c6248b679fcc98af0
+Author: Jordan Newkirk <jordannewkirk23@gmail.com>
+Date:   Thu Nov 17 23:21:36 2016 -0700
+
+    Added additional documentation
+
+commit 2a4798e6ff448dd2ea357ec0f756a1946b4bd770
+Author: Jordan Newkirk <jordannewkirk23@gmail.com>
+Date:   Thu Nov 17 23:04:22 2016 -0700
+
+    Added additional documentation and help() function which describes the usage of the program
+
+commit 32be820d51fe4cb796b99816940d6107ed544e6f
+Author: locoslrak <karlmarble@mail.weber.edu>
+Date:   Tue Nov 15 13:04:59 2016 -0700
+
+    Updated mod1
+    
+    change name of dict from ctrl{} to v{} and added validation line from *module1_hw7
+
+commit a128537154d07118ce2b797e835151435d2e748c
+Author: Gisela Chodos <gisela.chodos@gmail.com>
+Date:   Mon Nov 14 23:04:05 2016 -0700
+
+    finished mods 3 & 4, needs help(), etc.
+
+commit 0bb04a784247be42ce9caabaf7839ca97275204a
+Author: Gisela Chodos <gisela.chodos@gmail.com>
+Date:   Mon Nov 14 22:31:14 2016 -0700
+
+    mod 3 done, needs documentation and help()
+
+commit 8201d8ecd20999298c2d5dacc5599c39cea745a3
+Author: Gisela Chodos <gisela.chodos@gmail.com>
+Date:   Mon Nov 14 21:48:36 2016 -0700
+
+    removed unnecessary variable
+
+commit 1b585d0c4bade9314eec0ce35ed70dfae2bf5fb9
+Author: Gisela Chodos <gisela.chodos@gmail.com>
+Date:   Mon Nov 14 21:44:49 2016 -0700
+
+    mods 1 & 2 done, need commenting
+
+commit 8f49615c1e30f3bea211ed195baa7b1f10394db4
+Author: Gisela Chodos <gisela.chodos@gmail.com>
+Date:   Mon Nov 14 20:04:22 2016 -0700
+
+    added function to build list of dicts with record values
+
+commit 1f27ebf950a0a489d286702ee8334c4323a7949a
+Author: Gisela Chodos <gisela.chodos@gmail.com>
+Date:   Mon Nov 14 19:30:08 2016 -0700
+
+    wrote function to get records from csv file
+
+commit 4126cf4493b7ae7aad96f24c6b28ca1f7e5587ee
+Merge: 46a0668 16f5a0f
+Author: Gisela Chodos <gisela.chodos@gmail.com>
+Date:   Mon Nov 14 19:14:07 2016 -0700
+
+    Merge branch 'master' of https://github.com/geese/dazzling_cobra_hw7
+    
+    (tried to commit before I pulled, oops)
+
+commit 46a0668a5c529dcc9d94e02c8e9d574b2099a386
+Author: Gisela Chodos <gisela.chodos@gmail.com>
+Date:   Mon Nov 14 19:13:35 2016 -0700
+
+    Verifying that url can be read
+
+commit 16f5a0fcd35484fffa5316aa9ce64b0a189f6a4d
+Author: Karl <karlmarble@mail.weber.edu>
+Date:   Tue Nov 15 02:10:57 2016 +0000
+
+    added documentation and request text to mod3.py. Output needs changed to barcode format. Currently outputting list of values.
+
+commit e97bc8e6523ee918c7e2f0f32a18c20a25d9c070
+Author: Karl <karlmarble@mail.weber.edu>
+Date:   Tue Nov 15 02:10:04 2016 +0000
+
+    Added documentation to mod1.py
+
+commit 20e151a048201adc3df21d33880296fc7dfb8bda
+Author: Karl <karlmarble@mail.weber.edu>
+Date:   Tue Nov 15 02:01:29 2016 +0000
+
+    logic functions for hw7 module1 and module3
+
+commit 61acd728ff3a6362465af3f2402522c04491d62e
+Author: Gisela Chodos <gisela.chodos@gmail.com>
+Date:   Mon Nov 14 18:55:36 2016 -0700
+
+    task1 python file
